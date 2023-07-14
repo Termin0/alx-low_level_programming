@@ -2,7 +2,7 @@
 /**
  *main - Entry point of the program.
  *
- *the program prints alphabets lowercase.
+ *the program prints alphabets lowercase and uppercase.
  *
  *Return: Always 0 (Success)
  */
