@@ -5,25 +5,28 @@
 
 /**
 *main - Entry point of the program
-*the program makes a random number and says if positive, zero, or negative.
+*the program gets the last digit of a number.
 *Return: Always 0 (Success)
 */
 int main(void)
 {
 	int n;
+	int ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n == 0)
+	ld = n % 10;
+	if (ld > 5)
 	{
-		printf("%d is positive\n", n);
+		printf("Last digit of %d is %d and is greater than5\n", n, ld);
 	}
-	else if (n == 0)
+	else if (ld == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%Last digit of %d is %d and is 0\n", n, ld);
 	}
 	else
 	{
-		printf("%d is negative", n);
+		printf("Last digit of %d is %d and less than 6 and not 0\n", n, ld);
 	}
+	return (0);
 }
