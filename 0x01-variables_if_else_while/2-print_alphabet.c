@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *Include additional headers if necessary
- *main - Entry point of the program
- *the program print alphabets lowercase.
+ *main - Entry point of the program.
+ *
+ *the program prints alphabets lowercase.
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
@@ -16,6 +18,6 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-	putchar('\n');
-	return(0);
+	putchar ('\n');
+	return (0);
 }
