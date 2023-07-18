@@ -1,12 +1,12 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
-*print_alphabet - print the alphabet in lowercase
-*
-*Return: void
+*print_alphabet - Entry point
+*Return:0
 */
 void print_alphabet(void)
 {
-	int c = 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
@@ -14,4 +14,5 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
+
 }
